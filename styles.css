@@ -1,0 +1,78 @@
+.navcustom {
+    background-color: black;
+    color: black;
+}
+
+h1.carouseltext {
+    font-family: sans;
+    font-weight: bold;
+    font-size: 6rem;
+}
+p.carouseltext{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+
+}
+.redtext{
+    color:red;
+}
+#facephoto {
+    border-radius: 50%;
+}
+#skyline {
+
+    background-color: white;
+
+}
+#footer{
+    background-color: black;
+    padding: 0px 0px 50px 0px;
+    margin-top: 150px;
+
+}
+
+/* About page */
+.listnobullets {
+    list-style-type: none;
+}
+
+/*Contact page */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  /*Media queries*/
+
+@media (max-width: 992px) {
+    h1.carouseltext {
+        font-size: 3.5rem;
+    }
+    p.carouseltext{
+        font-size: 1rem;
+    
+    }
+}
+@media (max-width: 600px) {
+    h1.carouseltext {
+        font-size: 2.0rem;
+    }
+    p.carouseltext{
+    
+        display: none;
+    }
+    #ciccimg
+    {
+        width:250px;
+    }
+}
+
